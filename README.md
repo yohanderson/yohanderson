@@ -53,5 +53,5 @@
 
 [![diploma-blender-page-0001.jpg](https://i.postimg.cc/6QWmyc2Q/diploma-blender-page-0001.jpg)](https://postimg.cc/MnLDLyYk)
 
-
+[![diploma-blender-page-0001.jpg](https://i.postimg.cc/wjcKG78S/diploma-blender-page-0001.jpg)](https://postimg.cc/qNRZtB7L)
 

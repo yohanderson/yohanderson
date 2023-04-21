@@ -51,7 +51,7 @@
 [![](https://visitcount.itsvg.in/api?id=yohanderson&icon=1&color=6)](https://visitcount.itsvg.in)
 
 
-[url=https://postimg.cc/MnLDLyYk][img]https://i.postimg.cc/MnLDLyYk/diploma-blender-page-0001.jpg[/img][/url]
+[![diploma-blender-page-0001.jpg](https://i.postimg.cc/6QWmyc2Q/diploma-blender-page-0001.jpg)](https://postimg.cc/MnLDLyYk)
 
 
 

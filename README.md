@@ -61,4 +61,4 @@
 
 [![img4.jpg](https://i.postimg.cc/W45Gh0Cm/img4.jpg)](https://postimg.cc/VSbrh0Y5)     [![diploma-electronica-page-0001.jpg](https://i.postimg.cc/J7vG1dDR/diploma-electronica-page-0001.jpg)](https://postimg.cc/MX0W55mL)
 
-[![diploma-blender-page-0001.jpg](https://i.postimg.cc/wjcKG78S/diploma-blender-page-0001.jpg)](https://postimg.cc/qNRZtB7L)     [![diploma-economia-digital-page-0001.jpg](https://i.postimg.cc/90nTVm32/diploma-economia-digital-page-0001.jpg)](https://postimg.cc/K3t4Dyvp)
+[![diploma-blender-page-0001.jpg](https://i.postimg.cc/fT350qfH/diploma-blender-page-0001.jpg)](https://postimg.cc/kBmW0cZ8)     [![diploma-economia-digital-page-0001.jpg](https://i.postimg.cc/HjGMMzTK/diploma-economia-digital-page-0001.jpg)](https://postimg.cc/RJRq5c6Q)

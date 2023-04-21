@@ -51,7 +51,7 @@
 
 [![](https://visitcount.itsvg.in/api?id=yohanderson&icon=1&color=6)](https://visitcount.itsvg.in)
 
-👨🏻‍🎓 🥇 <--- Algunos de mis Certificados ---> 🏆🎫
+👨🏻‍🎓 🥇 <--- Algunos de mis Certificados ---> 🏆👨🏻‍💻
 
 [![img6.jpg](https://i.postimg.cc/0yd3XHK8/img6.jpg)](https://postimg.cc/pmrqpCB7)     [![img5.jpg](https://i.postimg.cc/RhNXMg0n/img5.jpg)](https://postimg.cc/7Jrg9M0x)
 

@@ -49,25 +49,16 @@
 
 ---
 
-👨🏻‍🎓 🥇 <--- Algunos de mis Certificados ---> 🏆🎫
 [![](https://visitcount.itsvg.in/api?id=yohanderson&icon=1&color=6)](https://visitcount.itsvg.in)
 
-[![img6.jpg](https://i.postimg.cc/0yd3XHK8/img6.jpg)](https://postimg.cc/pmrqpCB7)
+👨🏻‍🎓 🥇 <--- Algunos de mis Certificados ---> 🏆🎫
 
-[![img5.jpg](https://i.postimg.cc/RhNXMg0n/img5.jpg)](https://postimg.cc/7Jrg9M0x)
+[![img6.jpg](https://i.postimg.cc/0yd3XHK8/img6.jpg)](https://postimg.cc/pmrqpCB7)[![img5.jpg](https://i.postimg.cc/RhNXMg0n/img5.jpg)](https://postimg.cc/7Jrg9M0x)
 
-[![img3.jpg](https://i.postimg.cc/yYDpRW8F/img3.jpg)](https://postimg.cc/9rjB5mTM)
+[![img3.jpg](https://i.postimg.cc/yYDpRW8F/img3.jpg)](https://postimg.cc/9rjB5mTM) [![diploma-flutter-page-0001.jpg](https://i.postimg.cc/prHVF3Dj/diploma-flutter-page-0001.jpg)](https://postimg.cc/47WTCL24)
 
-[![diploma-flutter-page-0001.jpg](https://i.postimg.cc/prHVF3Dj/diploma-flutter-page-0001.jpg)](https://postimg.cc/47WTCL24)
+[![img7.jpg](https://i.postimg.cc/NjgbFGLc/img7.jpg)](https://postimg.cc/dLxGSY8H) [![diploma-ethereum-developers-page-0001.jpg](https://i.postimg.cc/ZqnWYkcK/diploma-ethereum-developers-page-0001.jpg)](https://postimg.cc/xkrfg4hW)
 
-[![img7.jpg](https://i.postimg.cc/NjgbFGLc/img7.jpg)](https://postimg.cc/dLxGSY8H)
+[![img4.jpg](https://i.postimg.cc/W45Gh0Cm/img4.jpg)](https://postimg.cc/VSbrh0Y5) [![diploma-electronica-page-0001.jpg](https://i.postimg.cc/J7vG1dDR/diploma-electronica-page-0001.jpg)](https://postimg.cc/MX0W55mL)
 
-[![diploma-ethereum-developers-page-0001.jpg](https://i.postimg.cc/ZqnWYkcK/diploma-ethereum-developers-page-0001.jpg)](https://postimg.cc/xkrfg4hW)
-
-[![img4.jpg](https://i.postimg.cc/W45Gh0Cm/img4.jpg)](https://postimg.cc/VSbrh0Y5)
-
-[![diploma-electronica-page-0001.jpg](https://i.postimg.cc/J7vG1dDR/diploma-electronica-page-0001.jpg)](https://postimg.cc/MX0W55mL)
-
-[![diploma-blender-page-0001.jpg](https://i.postimg.cc/wjcKG78S/diploma-blender-page-0001.jpg)](https://postimg.cc/qNRZtB7L)
-
-[![diploma-economia-digital-page-0001.jpg](https://i.postimg.cc/90nTVm32/diploma-economia-digital-page-0001.jpg)](https://postimg.cc/K3t4Dyvp)
+[![diploma-blender-page-0001.jpg](https://i.postimg.cc/wjcKG78S/diploma-blender-page-0001.jpg)](https://postimg.cc/qNRZtB7L) [![diploma-economia-digital-page-0001.jpg](https://i.postimg.cc/90nTVm32/diploma-economia-digital-page-0001.jpg)](https://postimg.cc/K3t4Dyvp)

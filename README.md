@@ -1,5 +1,5 @@
 # 💫 About Me:
-👨🏻‍💻I am currently working on my own projects.<br>🔬I am looking to belong to a company that values ​​and takes advantage of my potential while I build my professional and business career.<br>🏋🏻‍♂️I dedicate myself to learning and correctly applying what I have learned, adding my spectacular ideas and my essence to each project to which I dedicate myself.<br>🏆A fact that characterizes me is a great leader with initiative.<br>🙇🏻‍♂️You can ask me any questions about it I will answer you with very good charisma.
+👨🏻‍💻I am currently working on my own projects.<br>🔬I am looking to belong to a company that values ​​and takes advantage of my potential while I build my professional and business career.<br>🏋🏻‍♂️I dedicate myself to learning and correctly applying what I have learned, adding my spectacular ideas and my essence to each project to which I dedicate myself.<br>🏆A fact that characterizes me is being a great leader with initiative.<br>🙇🏻‍♂️You can ask me any questions about it I will answer you with very good charisma.
 
 
 ## 🌐 Socials:

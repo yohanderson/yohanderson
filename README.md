@@ -79,7 +79,7 @@
 
 📱 App Frontend 📱
 
-[![Screenshot-20221129-222738.png](https://i.postimg.cc/SsMQx03s/Screenshot-20221129-222738.png)](https://postimg.cc/wy9Ywr68) [![Screenshot-20221216-151438.png](https://i.postimg.cc/PJ2gsVJr/Screenshot-20221216-151438.png)](https://postimg.cc/5QQ7838Z) [![Screenshot-20221216-151451.png](https://i.postimg.cc/j5qv0x7P/Screenshot-20221216-151451.png)](https://postimg.cc/v1j55dXZ) [![Screenshot-20221216-151509.png](https://i.postimg.cc/mDXktN2X/Screenshot-20221216-151509.png)](https://postimg.cc/jwft1ffP) [![Screenshot-20221216-151532.png](https://i.postimg.cc/Bn6Sk1S4/Screenshot-20221216-151532.png)](https://postimg.cc/D893b04M) [Screenshot-20221216-151536.png](https://postimg.cc/8jYDTwbM)
+[![Screenshot-20221129-222738.png](https://i.postimg.cc/VvBW2k9P/Screenshot-20221129-222738.png)](https://postimg.cc/bSrnt8Fm) [![Screenshot-20221216-151438.png](https://i.postimg.cc/TY0c9hYr/Screenshot-20221216-151438.png)](https://postimg.cc/qztnBJKR) [![Screenshot-20221216-151451.png](https://i.postimg.cc/bJ1x2wBS/Screenshot-20221216-151451.png)](https://postimg.cc/VrLrxm1z) [![Screenshot-20221216-151509.png](https://i.postimg.cc/52tSk16D/Screenshot-20221216-151509.png)](https://postimg.cc/xcWmcwGP) [![Screenshot-20221216-151532.png](https://i.postimg.cc/rp0CMJGJ/Screenshot-20221216-151532.png)](https://postimg.cc/DWhbc1MJ) [![Screenshot-20221216-151536.png](https://i.postimg.cc/mkRQ3WvX/Screenshot-20221216-151536.png)](https://postimg.cc/47L7ZqNV)
 
 App aun sin terminar preview de como esta quedando (claramente tiene sus detalles) 
 codigo en el repositorio...

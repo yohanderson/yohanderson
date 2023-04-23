@@ -62,3 +62,13 @@
 [![img4.jpg](https://i.postimg.cc/W45Gh0Cm/img4.jpg)](https://postimg.cc/VSbrh0Y5)     [![diploma-electronica-page-0001.jpg](https://i.postimg.cc/J7vG1dDR/diploma-electronica-page-0001.jpg)](https://postimg.cc/MX0W55mL)
 
 [![diploma-blender-page-0001.jpg](https://i.postimg.cc/wjcKG78S/diploma-blender-page-0001.jpg)](https://postimg.cc/qNRZtB7L)   [![diploma-economia-digital-page-0001.jpg](https://i.postimg.cc/90nTVm32/diploma-economia-digital-page-0001.jpg)](https://postimg.cc/K3t4Dyvp)
+
+
+🖥️🎚️🖲️🖱️ <---- Set-Up ----> 🕹️🎮🎛️🎙️
+
+[![IMG-20230421-210222.jpg](https://i.postimg.cc/2yJW1KwL/IMG-20230421-210222.jpg)](https://postimg.cc/K3PjVQCm)
+[![IMG-20230421-210432.jpg](https://i.postimg.cc/FFP8PVzf/IMG-20230421-210432.jpg)](https://postimg.cc/fk98yXxZ)
+
+💡 Illustrator ✒️
+
+[![logo-myur.jpg](https://i.postimg.cc/DyR2NT0b/logo-myur.jpg)](https://postimg.cc/LnBKqGzH) [![se-or-e.jpg](https://i.postimg.cc/SQMqzPDS/se-or-e.jpg)](https://postimg.cc/z384s0s6) [![Logo-Merkabah.jpg](https://i.postimg.cc/BQngVrks/Logo-Merkabah.jpg)](https://postimg.cc/0rhD6B9H)

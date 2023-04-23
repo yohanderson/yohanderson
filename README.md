@@ -79,7 +79,7 @@
 
 📱 App Frontend 📱
 
-[![Screenshot-20221129-222738.png](https://i.postimg.cc/SsMQx03s/Screenshot-20221129-222738.png)](https://postimg.cc/wy9Ywr68) [![Screenshot-20221216-151438.png](https://i.postimg.cc/PJ2gsVJr/Screenshot-20221216-151438.png)](https://postimg.cc/5QQ7838Z) [![Screenshot-20221216-151451.png](https://i.postimg.cc/j5qv0x7P/Screenshot-20221216-151451.png)](https://postimg.cc/v1j55dXZ) [![Screenshot-20221216-151509.png](https://i.postimg.cc/mDXktN2X/Screenshot-20221216-151509.png)](https://postimg.cc/jwft1ffP) [![Screenshot-20221216-151532.png](https://i.postimg.cc/Bn6Sk1S4/Screenshot-20221216-151532.png)](https://postimg.cc/D893b04M) [Screenshot-20221216-151536.png](https://postimg.cc/8jYDTwbM)
+[![Screenshot-20221129-222738.png](https://i.postimg.cc/SsMQx03s/Screenshot-20221129-222738.png)](https://postimg.cc/wy9Ywr68)
 
 App aun sin terminar preview de como esta quedando (claramente tiene sus detalles) 
 codigo en el repositorio...

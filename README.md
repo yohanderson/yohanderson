@@ -93,3 +93,5 @@ codigo en el repositorio...
 🖥️ Modeling 3D Blender + Prints3D 🖱️
 
 [![image.png](https://i.postimg.cc/7ZzWXRxr/image.png)](https://postimg.cc/QFXmd09f) [![20190204-091939.jpg](https://i.postimg.cc/1RCRZ8D5/20190204-091939.jpg)](https://postimg.cc/WtZcGb9Q) [![20190204-091745.jpg](https://i.postimg.cc/cCrSJcf1/20190204-091745.jpg)](https://postimg.cc/2LRJchHg)
+
+Actualmente no hablo ingles, estoy estudiando y practicando cada dia sin embargo recomiendo el uso de la extensio Viva: Translate & Transcribe GMeets extension de google chrome que nos ayudara a una comunicacion mas fluida 

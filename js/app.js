@@ -2,6 +2,21 @@
 //<---general---->//
 //-------------------//
 
+
+// nav //
+const toggleBtnIcon = document.querySelector('.toggle-btn i')
+const dropDownMenu = document.querySelector('.dropdown-menu')
+
+toggleBtnIcon.onclick = function () {
+  dropDownMenu.classList.toggle('open')
+  const isOpen = dropDownMenu.classList.contains('open')
+
+  toggleBtnIcon.classList = isOpen
+    ? 'fa-solid fa-xmark'
+    : 'fa-solid fa-bars'
+}
+
+
 // scroll vertical
 let currentSection = 0;
 let lastScrollTime = 0;
@@ -27,34 +42,39 @@ window.addEventListener("touchstart", (event) => {
   touchStartX = event.touches[0].clientX;
 });
 
-window.addEventListener("touchmove", (event) => {
-  event.preventDefault();
+window.addEventListener(
+  "touchmove",
+  (event) => {
+    event.preventDefault();
 
-  const touchEndY = event.changedTouches[0].clientY;
-  const touchEndX = event.changedTouches[0].clientX;
+    const touchEndY = event.changedTouches[0].clientY;
+    const touchEndX = event.changedTouches[0].clientX;
 
-  const deltaY = touchStartY - touchEndY;
-  const deltaX = touchStartX - touchEndX;
+    const deltaY = touchStartY - touchEndY;
+    const deltaX = touchStartX - touchEndX;
 
-  if (Math.abs(deltaY) > Math.abs(deltaX)) {
-    // Movimiento vertical
-    if (deltaY > 0) {
-      moveSections("down");
-    } else if (deltaY < 0) {
-      moveSections("up");
+    if (Math.abs(deltaY) > Math.abs(deltaX)) {
+      // Movimiento vertical
+      if (deltaY > 0) {
+        moveSections("down");
+      } else if (deltaY < 0) {
+        moveSections("up");
+      }
+    } else {
+      // Movimiento horizontal
+      const currentSectionElement = sections[currentSection];
+      const slideContainer =
+        currentSectionElement.querySelector(".slide-container");
+
+      if (deltaX > 0 && slideContainer) {
+        moveSlides("right");
+      } else if (deltaX < 0 && slideContainer) {
+        moveSlides("left");
+      }
     }
-  } else {
-    // Movimiento horizontal
-    const currentSectionElement = sections[currentSection];
-    const slideContainer = currentSectionElement.querySelector(".slide-container");
-
-    if (deltaX > 0 && slideContainer) {
-      moveSlides("right");
-    } else if (deltaX < 0 && slideContainer) {
-      moveSlides("left");
-    }
-  }
-}, { passive: false });
+  },
+  { passive: false }
+);
 
 window.addEventListener(
   "wheel",
@@ -86,6 +106,7 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
+
 // slide horizontal
 let currentSlide = 0;
 
@@ -108,7 +129,8 @@ const moveSlides = (direction) => {
 };
 window.addEventListener("keydown", (event) => {
   const currentSectionElement = sections[currentSection];
-  const slideContainer = currentSectionElement.querySelector(".slide-container");
+  const slideContainer =
+    currentSectionElement.querySelector(".slide-container");
 
   if (event.key === "ArrowRight" && slideContainer) {
     event.preventDefault();
@@ -123,7 +145,6 @@ window.addEventListener("keydown", (event) => {
 //<---section-one---->//
 //-------------------//
 
-
 //texto multiple loop
 var typingEffect = new Typed(".multiText", {
   strings: ["Coder", "Creative", "Designer"],
@@ -133,85 +154,70 @@ var typingEffect = new Typed(".multiText", {
   backDelay: 1500,
 });
 
-//---------------------//
-//<---section-two---->//
-//-------------------//
+function descargarImagen() {
+  var link = document.createElement("a");
+  link.href = "../source/img/cv.png";
+  link.download = "img.png";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
 
-// Selecciona todos los enlaces de categoría
+
+
+//----------------------//
+//<---section-two----->//
+//--------------------//
+
+//----------------------//
+//<---section-three---->//
+//----------------------//
+
 const categoryLinks = document.querySelectorAll(".categorias a");
 
-// Agrega un evento de clic a cada enlace de categoría
 categoryLinks.forEach((link) => {
   link.addEventListener("click", (event) => {
-    // Evita que el enlace realice su acción predeterminada
     event.preventDefault();
 
-    // Selecciona la categoría del enlace en el que se hizo clic
     const category = event.target.textContent;
 
-    // Selecciona todos los contenedores skills
     const skillsContainers = document.querySelectorAll(".skills");
 
-    // Oculta todos los contenedores skills
     skillsContainers.forEach((container) => {
       container.style.display = "none";
     });
 
-    // Muestra solo los contenedores skills que tienen la clase correspondiente a la categoría seleccionada
-    if (category === "Todos") {
-      skillsContainers.forEach((container) => {
-        container.style.display = "block";
-      });
-    } else {
-      const selectedContainers = document.querySelectorAll(
-        `.skills.${category.toLowerCase()}`
-      );
-      selectedContainers.forEach((container) => {
-        container.style.display = "block";
-      });
-    }
+    const selectedContainers = document.querySelectorAll(
+      `.skills.${category.toLowerCase()}`
+    );
+    selectedContainers.forEach((container) => {
+      container.style.display = "block";
+    });
 
-
-
-//---------------------//
-//<---section-four---->//
-//-------------------//
-
-
-    // bottom back contact.html --> index.html //
-
-    // Elimina la clase activo de todos los enlaces de categoría
     categoryLinks.forEach((link) => {
       link.classList.remove("activo");
     });
 
-    // Agrega la clase activo al enlace de categoría seleccionado
     event.target.classList.add("activo");
   });
 });
 
+window.addEventListener("load", () => {
+  const skillsContainers = document.querySelectorAll(".skills");
 
-// Almacenar la sección actual en el almacenamiento local del navegador
-document.querySelector('#contact-button').addEventListener('click', function() {
-  localStorage.setItem('currentSection', 'section-four');
+  skillsContainers.forEach((container) => {
+    container.style.display = "none";
+  });
+
+  const selectedContainers = document.querySelectorAll(
+    `.skills.frontend`
+  );
+  selectedContainers.forEach((container) => {
+    container.style.display = "block";
+  });
 });
 
-// Navegar a la sección correcta cuando la página se carga
-window.addEventListener('load', function() {
-  var storedSection = localStorage.getItem('currentSection');
-  if (storedSection) {
-      sections.forEach((section, index) => {
-          if (section.classList.contains(storedSection)) {
-              currentSection = index;
-              moveSections();
-          }
-      });
-  }
-});
 
-// Navegar de regreso a la página index.html cuando haces clic en el botón de regreso
-document.querySelector('#back-button').addEventListener('click', function(event) {
-  event.preventDefault();
-  var currentSection = localStorage.getItem('currentSection');
-  window.location.href = 'index.html#' + currentSection;
-});
+//---------------------//
+//<---section-four---->//
+//--------------------//

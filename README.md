@@ -86,12 +86,4 @@ codigo en el repositorio...
 [![IMG-20230421-210222.jpg](https://i.postimg.cc/2yJW1KwL/IMG-20230421-210222.jpg)](https://postimg.cc/K3PjVQCm)
 [![IMG-20230421-210432.jpg](https://i.postimg.cc/FFP8PVzf/IMG-20230421-210432.jpg)](https://postimg.cc/fk98yXxZ)
 
-💡 Illustrator ✒️
-
-[![logo-myur.jpg](https://i.postimg.cc/DyR2NT0b/logo-myur.jpg)](https://postimg.cc/LnBKqGzH) [![se-or-e.jpg](https://i.postimg.cc/SQMqzPDS/se-or-e.jpg)](https://postimg.cc/z384s0s6) [![Logo-Merkabah.jpg](https://i.postimg.cc/BQngVrks/Logo-Merkabah.jpg)](https://postimg.cc/0rhD6B9H)
-
-🖥️ Modeling 3D Blender + Prints3D 🖱️
-
-[![image.png](https://i.postimg.cc/7ZzWXRxr/image.png)](https://postimg.cc/QFXmd09f) [![20190204-091939.jpg](https://i.postimg.cc/1RCRZ8D5/20190204-091939.jpg)](https://postimg.cc/WtZcGb9Q) [![20190204-091745.jpg](https://i.postimg.cc/cCrSJcf1/20190204-091745.jpg)](https://postimg.cc/2LRJchHg)
-
 Actualmente no hablo ingles, estoy estudiando y practicando cada dia sin embargo recomiendo el uso de la extensio Viva: Translate & Transcribe GMeets extension de google chrome que nos ayudara a una comunicacion mas fluida 

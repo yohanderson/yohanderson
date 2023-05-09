@@ -6,10 +6,10 @@
 var link = document.querySelector('link[rel="shortcut icon"]');
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   // El navegador está en modo oscuro
-  link.href = "../source/img/resources/logo_señor_e_blanco.png";
+  link.href = "https:/yohanderson.github.io/yohanderson/source/img/resources/logo_señor_e_blanco.png";
 } else {
   // El navegador está en modo claro
-  link.href = "../source/img/resources/logo_señor_e.png";
+  link.href = "https:/yohanderson.github.io/yohanderson/source/img/resources/logo_señor_e.png";
 }
 
 
@@ -95,6 +95,46 @@ window.addEventListener("wheel", (event) => {
     }
   }
 });
+
+let touchStartX = 0;
+let touchStartY = 0;
+let touchEndX = 0;
+let touchEndY = 0;
+
+const handleTouchStart = (event) => {
+  touchStartX = event.touches[0].clientX;
+  touchStartY = event.touches[0].clientY;
+};
+
+const handleTouchMove = (event) => {
+  touchEndX = event.touches[0].clientX;
+  touchEndY = event.touches[0].clientY;
+};
+
+const handleTouchEnd = () => {
+  const deltaX = touchEndX - touchStartX;
+  const deltaY = touchEndY - touchStartY;
+
+  if (Math.abs(deltaX) > Math.abs(deltaY)) {
+    // El usuario está desplazándose horizontalmente
+    if (deltaX > 0) {
+      moveSlides("left");
+    } else {
+      moveSlides("right");
+    }
+  } else {
+    // El usuario está desplazándose verticalmente
+    if (deltaY > 0) {
+      moveSections("up");
+    } else {
+      moveSections("down");
+    }
+  }
+};
+
+window.addEventListener("touchstart", handleTouchStart);
+window.addEventListener("touchmove", handleTouchMove);
+window.addEventListener("touchend", handleTouchEnd);
 
 //---------------------//
 //<---section-one---->//

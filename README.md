@@ -63,7 +63,13 @@ Organization
 
 📱 App Frontend 📱
 
-[![Screenshot-20221129-222738.png](https://i.postimg.cc/VvBW2k9P/Screenshot-20221129-222738.png)](https://postimg.cc/bSrnt8Fm) [![Screenshot-20221216-151438.png](https://i.postimg.cc/TY0c9hYr/Screenshot-20221216-151438.png)](https://postimg.cc/qztnBJKR) [![Screenshot-20221216-151451.png](https://i.postimg.cc/bJ1x2wBS/Screenshot-20221216-151451.png)](https://postimg.cc/VrLrxm1z) [![Screenshot-20221216-151509.png](https://i.postimg.cc/52tSk16D/Screenshot-20221216-151509.png)](https://postimg.cc/xcWmcwGP) [![Screenshot-20221216-151532.png](https://i.postimg.cc/jjbk52cm/Screenshot-20221216-151532.png)](https://postimg.cc/JspQY195) [![Screenshot-20221216-151536.png](https://i.postimg.cc/B6c36R2c/Screenshot-20221216-151536.png)](https://postimg.cc/YG9ZDnnh)
+[![1.png](https://i.postimg.cc/J4xsn5V1/1.png)](https://postimg.cc/VdSfZMkT)
+[![3.png](https://i.postimg.cc/W4hFxFys/3.png)](https://postimg.cc/xkV1zCYZ)
+[![4.png](https://i.postimg.cc/XvzFvc5Z/4.png)](https://postimg.cc/Ff01WSDm)
+[![5.png](https://i.postimg.cc/zByCwPNS/5.png)](https://postimg.cc/2bfLrGVV)
+[![6.png](https://i.postimg.cc/y86SXrXg/6.png)](https://postimg.cc/2VJ6CGtr)
+[![2.png](https://i.postimg.cc/ZYyPCgVJ/2.png)](https://postimg.cc/w3gRrwCr)
+[![7.png](https://i.postimg.cc/jjsnc3Hn/7.png)](https://postimg.cc/68mQ501B)
 
 App aun sin terminar preview de como esta quedando (claramente tiene sus detalles) 
 codigo en el repositorio...
@@ -85,13 +91,5 @@ codigo en el repositorio...
 
 [![IMG-20230421-210222.jpg](https://i.postimg.cc/2yJW1KwL/IMG-20230421-210222.jpg)](https://postimg.cc/K3PjVQCm)
 [![IMG-20230421-210432.jpg](https://i.postimg.cc/FFP8PVzf/IMG-20230421-210432.jpg)](https://postimg.cc/fk98yXxZ)
-
-💡 Illustrator ✒️
-
-[![logo-myur.jpg](https://i.postimg.cc/DyR2NT0b/logo-myur.jpg)](https://postimg.cc/LnBKqGzH) [![se-or-e.jpg](https://i.postimg.cc/SQMqzPDS/se-or-e.jpg)](https://postimg.cc/z384s0s6) [![Logo-Merkabah.jpg](https://i.postimg.cc/BQngVrks/Logo-Merkabah.jpg)](https://postimg.cc/0rhD6B9H)
-
-🖥️ Modeling 3D Blender + Prints3D 🖱️
-
-[![image.png](https://i.postimg.cc/7ZzWXRxr/image.png)](https://postimg.cc/QFXmd09f) [![20190204-091939.jpg](https://i.postimg.cc/1RCRZ8D5/20190204-091939.jpg)](https://postimg.cc/WtZcGb9Q) [![20190204-091745.jpg](https://i.postimg.cc/cCrSJcf1/20190204-091745.jpg)](https://postimg.cc/2LRJchHg)
 
 Actualmente no hablo ingles, estoy estudiando y practicando cada dia sin embargo recomiendo el uso de la extensio Viva: Translate & Transcribe GMeets extension de google chrome que nos ayudara a una comunicacion mas fluida 

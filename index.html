@@ -17,6 +17,7 @@
     />
     <link rel="stylesheet" href="./style/style.css" />
     <title>Sr Espacio</title>
+    <link rel="shortcut icon" href="./source/img/resources/logo_señor_e.png" />
   </head>
   <body>
     <main>
@@ -24,7 +25,10 @@
       <section class="section section-one" id="inicio">
         <header>
           <nav class="navbar">
-            <a id="titulo">SEÑOR ESPACIO</a>
+            <div id="titulo">
+              <img src="./source/img/resources/logo_señor_e_blanco.png" alt="logo" />
+              <a>SEÑOR ESPACIO</a>
+            </div>
             <ul class="menu">
               <li><a href="#inicio" class="text_menu">INICIO</a></li>
               <li><a href="#team" class="text_menu">TEAM</a></li>
@@ -59,43 +63,43 @@
             </div>
           </div>
           <div class="img-central animate__animated animate__zoomIn">
-            <img src="./source/img/leonweb.png" alt="imagen central" />
+            <img src="./source/img/resources/leonweb.png" alt="imagen central" />
           </div>
         </div>
       </section>
       <!--section-two-->
       <section class="section section-two" id="team">
-        <div class="slide-container slide-container-two">
+        <div class="slide-container">
           <div class="slide two-slide-one">
             <div class="two-titule-slide-one">
               <div>
-                <h1>Team</h1>
-                <p>Desarrollador and Designed</p>
+                <h1>Proyectos</h1>
+                <p>Algunos proyectos</p>
               </div>
             </div>
-            <div class="content-slide-one">
-              <div class="card-team">
-                <div class="face-one face-one-one"></div>
-                <div class="face-two">
-                  <div>
-                    <h1>Levy Yohanderson Marquez Mendoza</h1>
-                    <p>Developer and designer</p>
-                  </div>
-                </div>
+            <div class="app-pages">
+              <div class="mockups">
+                <img src="./source/img/resources/mockups_app.png" />
+                <h3>Aplicacion Flutter</h3>
+                <span>link del repositorio</span>
+                <a href="https://github.com/yohanderson/app-flutter" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
               </div>
-              <div class="card-team">
-                <div class="face-one face-one-two"></div>
-                <div class="face-two">
-                  <div>
-                    <h1>Maria jose Rojas guillen</h1>
-                    <p>Independent designer</p>
-                  </div>
+              <div class="web-repo">
+                <div class="collage">
+                  <img src="./source/img/web/Captura4.png" alt="web-repo" />
+                  <img src="./source/img/web/Captura6.png" alt="web-repo" />
+                  <img src="./source/img/web/Captura7.png" alt="web-repo" />
+                  <img src="./source/img/web/Captura8.png" alt="web-repo" />
+                  <img src="./source/img/web/Captura9.png" alt="web-repo" />
+                  <img src="./source/img/web/Captura10.png" alt="web-repo" />
                 </div>
-              </div>
-              <div class="proyects">
-                <div class="proyect"></div>
-                <div class="proyect"></div>
-                <div class="proyect"></div>
+                <h3>E-commerce web JavaScript</h3>
+                <span>link del repositorio</span>
+                <a href="https://github.com/yohanderson/e-coomerce-creax" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
               </div>
             </div>
           </div>
@@ -139,223 +143,319 @@
               ></div>
             </div>
           </div>
-          <div class="slide two-slide-three"></div>
         </div>
       </section>
       <!--section-three-->
       <section class="section section-three" id="skills">
-        <div class="slide-container">
-          <div class="slide three-slide-one">
-            <div class="screen">
-              <div class="menu-section-three">
-                <div class="logo">
-                  <h1>yohanderson Marquez</h1>
-                  <p>Desarrollador Web</p>
-                </div>
-                <form class="form" action="">
-                  <input
-                    type="text"
-                    class="barra-busqueda"
-                    id="barra-busqueda"
-                    placeholder="Buscar"
+        <div class="logo">
+          <h1>yohanderson Marquez</h1>
+          <p>Desarrollador Web</p>
+        </div>
+        <div class="divide-Row">
+          <div class="card-team-container"></div>
+          <div class="screen">
+            <div class="menu-section-three">
+              <div class="categorias" id="categorias">
+                <a href="#" class="activo">Frontend</a>
+                <a href="#">Backend</a>
+                <a href="#">DataBase</a>
+                <a href="#">Blockchain</a>
+                <a href="#">Tools</a>
+                <a href="#">Designed</a>
+                <a href="#">Others</a>
+              </div>
+            </div>
+            <div class="cards-skills">
+              <div
+                class="skills frontend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/frontend/html5.png"
+                    alt="frontend-img"
                   />
-                </form>
-                <div class="categorias" id="categorias">
-                  <a href="#" class="activo">Frontend</a>
-                  <a href="#">Backend</a>
-                  <a href="#">Data Base</a>
-                  <a href="#">Designed</a>
-                  <a href="#">Blockchain</a>
-                  <a href="#">IA</a>
-                  <a href="#">Tools</a>
-                  <a href="#">Otros</a>
                 </div>
               </div>
-              <div class="cards-skills">
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              <div
+                class="skills frontend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/frontend/css3.png"
+                    alt="frontend-img"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills frontend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/frontend/JavaScript.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills frontend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/frontend/flutter.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills frontend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/frontend/Dart.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills backend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/backend/nodejs.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills backend animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/backend/rust.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills database animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/data_base/aws-daynamo.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills database animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/data_base/mongodb.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills database animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/data_base/surreal.png"
+                    alt="data_base"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills blockchain animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/blockchain/solana-sol-logo.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills blockchain animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/blockchain/substrate.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div
+                class="skills blockchain animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/blockchain/web3.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/Docker-Symbol.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/Git-Icon-1788C.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/grpc-icon-color.png"
+                    alt="backend"
+                  />
                 </div>
-                <div class="skills frontend animate__animated animate__flipInX">
-                  <div class="div-img">
-                    <img
-                      class="skills-img"
-                      src="./source/img/icon_png/1_0WNVU1HfJvNIGwkhG274Qw.png"
-                      alt="backend"
-                    />
-                  </div>
-                  <span>lenguaje de programacion</span>
-                  <div class="skills-data"></div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/Kali-dragon.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/Kubernetes.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/Notion_app_logo.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/PowerShell_5.0_icon.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills tools animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/herramientas/Viva+Translate+Logo.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div
+                class="skills designed animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/desing/Blender_logo_no_text.svg.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div
+                class="skills designed animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/desing/adobe-photoshop-logo.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div
+                class="skills designed animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/desing/adobe-Illustrator-logo-1-1.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div
+                class="skills designed animate__animated animate__flipInX"
+              >
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/desing/Adobe_After_Effects_CC_icon.svg.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills others animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/others/Raspberry_Pi.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills others animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/others/3dprinter.png"
+                    alt="backend"
+                  />
+                </div>
+              </div>
+              <div class="skills others animate__animated animate__flipInX">
+                <div class="div-img">
+                  <img
+                    class="skills-img"
+                    src="./source/img/icon_png/others/arduino-logo.png"
+                    alt="backend"
+                  />
                 </div>
               </div>
             </div>
           </div>
-          <div class="slide three-slide-two">
-            <iframe src="" width="100%" height="100%"></iframe>
-          </div>
-          <div class="slide three-slide-three"></div>
         </div>
+      </div>
       </section>
       <!--section-four-->
       <section class="section section-four" id="contact-button contact">
@@ -372,8 +472,8 @@
                 Necesitas Desarrollador?<br />Contactame!
               </div>
               <div class="datos">
-                yohandersonmarquez"outlook.es<br />Derechos Reservados<br />Designed
-                by yohanderson Marquuez
+                yohandersonmarquez@outlook.es<br />Derechos Reservados<br />Designed
+                by Yohanderson Marquez
               </div>
               <a class="boton-contact" href="./html/contact.html">
                 <button>Contact</button>
@@ -382,7 +482,7 @@
                 <ul class="social">
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/victor-fajardo-b3a58a205/"
+                      href="https://www.linkedin.com/in/yohanderson-marquez-896083248/"
                       target="_blank"
                       class="footer-text"
                       >Linkedin</a
@@ -390,7 +490,7 @@
                   </li>
                   <li>
                     <a
-                      href="https://github.com/victorgp1124"
+                      href="https://github.com/yohanderson"
                       target="_blank"
                       class="footer-text"
                       >Git Hub</a
@@ -404,6 +504,7 @@
       </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/app.js"></script>
   </body>
 </html>

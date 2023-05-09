@@ -2,6 +2,16 @@
 //<---general---->//
 //-------------------//
 
+//---icon---//
+var link = document.querySelector('link[rel="shortcut icon"]');
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  // El navegador está en modo oscuro
+  link.href = "../source/img/resources/logo_señor_e_blanco.png";
+} else {
+  // El navegador está en modo claro
+  link.href = "../source/img/resources/logo_señor_e.png";
+}
+
 
 // nav //
 const toggleBtnIcon = document.querySelector('.toggle-btn i')
@@ -19,105 +29,16 @@ toggleBtnIcon.onclick = function () {
 
 // scroll vertical
 let currentSection = 0;
-let lastScrollTime = 0;
+let currentSlide = 0;
 const sections = document.querySelectorAll(".section");
 
-const moveSections = (direction) => {
-  if (direction === "down" && currentSection < sections.length - 1) {
-    currentSection++;
-  } else if (direction === "up" && currentSection > 0) {
-    currentSection--;
-  }
-
-  sections.forEach((section, index) => {
-    section.style.transform = `translateY(-${currentSection * 100}vh)`;
-  });
-};
-
-let touchStartY = 0;
-let touchStartX = 0;
-
-window.addEventListener("touchstart", (event) => {
-  touchStartY = event.touches[0].clientY;
-  touchStartX = event.touches[0].clientX;
-});
-
-window.addEventListener(
-  "touchmove",
-  (event) => {
-    event.preventDefault();
-
-    const touchEndY = event.changedTouches[0].clientY;
-    const touchEndX = event.changedTouches[0].clientX;
-
-    const deltaY = touchStartY - touchEndY;
-    const deltaX = touchStartX - touchEndX;
-
-    if (Math.abs(deltaY) > Math.abs(deltaX)) {
-      // Movimiento vertical
-      if (deltaY > 0) {
-        moveSections("down");
-      } else if (deltaY < 0) {
-        moveSections("up");
-      }
-    } else {
-      // Movimiento horizontal
-      const currentSectionElement = sections[currentSection];
-      const slideContainer =
-        currentSectionElement.querySelector(".slide-container");
-
-      if (deltaX > 0 && slideContainer) {
-        moveSlides("right");
-      } else if (deltaX < 0 && slideContainer) {
-        moveSlides("left");
-      }
-    }
-  },
-  { passive: false }
-);
-
-window.addEventListener(
-  "wheel",
-  (event) => {
-    event.preventDefault();
-
-    const currentTime = new Date().getTime();
-
-    if (currentTime - lastScrollTime > 500) {
-      lastScrollTime = currentTime;
-
-      if (event.deltaY > 0) {
-        moveSections("down");
-      } else if (event.deltaY < 0) {
-        moveSections("up");
-      }
-    }
-  },
-  { passive: false }
-);
-
-window.addEventListener("keydown", (event) => {
-  if (event.key === "ArrowDown") {
-    event.preventDefault();
-    moveSections("down");
-  } else if (event.key === "ArrowUp") {
-    event.preventDefault();
-    moveSections("up");
-  }
-});
-
-
-// slide horizontal
-let currentSlide = 0;
-
-const slides = document.querySelectorAll(".slide");
-
 const moveSlides = (direction) => {
+  const slides = sections[currentSection].querySelectorAll(".slide");
   if (direction === "right") {
     if (currentSlide < slides.length - 1) {
       currentSlide++;
     } else {
-      currentSlide = 0; // Agrega esta línea
+      currentSlide = 0;
     }
   } else if (direction === "left" && currentSlide > 0) {
     currentSlide--;
@@ -127,6 +48,21 @@ const moveSlides = (direction) => {
     slide.style.transform = `translateX(-${currentSlide * 100}%)`;
   });
 };
+
+const moveSections = (direction) => {
+  if (currentSlide === 0) {
+    if (direction === "down" && currentSection < sections.length - 1) {
+      currentSection++;
+    } else if (direction === "up" && currentSection > 0) {
+      currentSection--;
+    }
+
+    sections.forEach((section, index) => {
+      section.style.transform = `translateY(-${currentSection * 100}vh)`;
+    });
+  }
+};
+
 window.addEventListener("keydown", (event) => {
   const currentSectionElement = sections[currentSection];
   const slideContainer =
@@ -138,6 +74,25 @@ window.addEventListener("keydown", (event) => {
   } else if (event.key === "ArrowLeft" && slideContainer) {
     event.preventDefault();
     moveSlides("left");
+  } else if (event.key === "ArrowDown") {
+    event.preventDefault();
+    moveSections("down");
+  } else if (event.key === "ArrowUp") {
+    event.preventDefault();
+    moveSections("up");
+  }
+});
+
+window.addEventListener("wheel", (event) => {
+  if (currentSlide === 0) {
+    const delta = event.deltaY;
+    if (delta > 0) {
+      // El usuario está desplazándose hacia abajo
+      moveSections("down");
+    } else if (delta < 0) {
+      // El usuario está desplazándose hacia arriba
+      moveSections("up");
+    }
   }
 });
 
@@ -156,8 +111,8 @@ var typingEffect = new Typed(".multiText", {
 
 function descargarImagen() {
   var link = document.createElement("a");
-  link.href = "../source/img/cv.png";
-  link.download = "img.png";
+  link.href = "../source/img/resources/cv.png";
+  link.download = "cv-se.png";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
@@ -172,6 +127,9 @@ function descargarImagen() {
 //----------------------//
 //<---section-three---->//
 //----------------------//
+
+
+//-----three-slide-one-----//
 
 const categoryLinks = document.querySelectorAll(".categorias a");
 
@@ -217,6 +175,7 @@ window.addEventListener("load", () => {
   });
 });
 
+//------three-slide-two------//
 
 //---------------------//
 //<---section-four---->//

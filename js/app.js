@@ -6,10 +6,10 @@
 var link = document.querySelector('link[rel="shortcut icon"]');
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
   // El navegador está en modo oscuro
-  link.href = "source/img/resources/logo_señor_e_blanco.png";
+  link.href = "./source/img/resources/logo_señor_e_blanco.png";
 } else {
   // El navegador está en modo claro
-  link.href = "source/img/resources/logo_señor_e.png";
+  link.href = "./source/img/resources/logo_señor_e.png";
 }
 
 

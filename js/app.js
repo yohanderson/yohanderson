@@ -83,18 +83,28 @@ window.addEventListener("keydown", (event) => {
   }
 });
 
+let totalDeltaY = 0;
+const threshold = 100; // Puedes ajustar este valor para hacer que el desplazamiento sea más o menos sensible
+
 window.addEventListener("wheel", (event) => {
   if (currentSlide === 0) {
     const delta = event.deltaY;
-    if (delta > 0) {
-      // El usuario está desplazándose hacia abajo
-      moveSections("down");
-    } else if (delta < 0) {
-      // El usuario está desplazándose hacia arriba
-      moveSections("up");
+    totalDeltaY += delta;
+
+    if (Math.abs(totalDeltaY) > threshold) {
+      if (delta > 0) {
+        // El usuario está desplazándose hacia abajo
+        moveSections("down");
+      } else if (delta < 0) {
+        // El usuario está desplazándose hacia arriba
+        moveSections("up");
+      }
+      totalDeltaY = 0;
     }
   }
 });
+
+//desplazamiento en mobile 
 
 let touchStartX = 0;
 let touchStartY = 0;
@@ -114,6 +124,7 @@ const handleTouchMove = (event) => {
 const handleTouchEnd = () => {
   const deltaX = touchEndX - touchStartX;
   const deltaY = touchEndY - touchStartY;
+  const threshold = 50; // Puedes ajustar este valor para hacer que el desplazamiento sea más o menos sensible
 
   if (Math.abs(deltaX) > Math.abs(deltaY)) {
     // El usuario está desplazándose horizontalmente
@@ -124,10 +135,12 @@ const handleTouchEnd = () => {
     }
   } else {
     // El usuario está desplazándose verticalmente
-    if (deltaY > 0) {
-      moveSections("up");
-    } else {
-      moveSections("down");
+    if (Math.abs(deltaY) > threshold) {
+      if (deltaY > 0) {
+        moveSections("up");
+      } else {
+        moveSections("down");
+      }
     }
   }
 };

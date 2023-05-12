@@ -84,7 +84,7 @@ window.addEventListener("keydown", (event) => {
 });
 
 let totalDeltaY = 0;
-const threshold = 100; // Puedes ajustar este valor para hacer que el desplazamiento sea más o menos sensible
+const threshold = 100;
 
 window.addEventListener("wheel", (event) => {
   if (currentSlide === 0) {
@@ -124,8 +124,7 @@ const handleTouchMove = (event) => {
 const handleTouchEnd = () => {
   const deltaX = touchEndX - touchStartX;
   const deltaY = touchEndY - touchStartY;
-  const threshold = 50; // Puedes ajustar este valor para hacer que el desplazamiento sea más o menos sensible
-
+  const threshold = 50;
   if (Math.abs(deltaX) > Math.abs(deltaY)) {
     // El usuario está desplazándose horizontalmente
     if (deltaX > 0) {
@@ -164,7 +163,7 @@ var typingEffect = new Typed(".multiText", {
 
 function descargarImagen() {
   var link = document.createElement("a");
-  link.href = "../source/img/resources/cv.png";
+  link.href = "./source/img/resources/cv.png";
   link.download = "cv-se.png";
   document.body.appendChild(link);
   link.click();
@@ -180,9 +179,6 @@ function descargarImagen() {
 //----------------------//
 //<---section-three---->//
 //----------------------//
-
-
-//-----three-slide-one-----//
 
 const categoryLinks = document.querySelectorAll(".categorias a");
 
@@ -227,8 +223,6 @@ window.addEventListener("load", () => {
     container.style.display = "block";
   });
 });
-
-//------three-slide-two------//
 
 //---------------------//
 //<---section-four---->//
